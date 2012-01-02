@@ -1,6 +1,6 @@
 //
-//  FirstViewController.h
-//  TabbediAd
+//  TableViewController.h
+//  TabbediAds
 //
 //  Created by Vashishtha Jogi on 1/2/12.
 //  Copyright (c) 2012 Vashishtha Jogi. All rights reserved.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface TableViewController : UITableViewController
 
 @end
