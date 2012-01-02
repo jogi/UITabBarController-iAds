@@ -37,10 +37,12 @@
     CGRect contentFrame = [_contentView bounds];
     CGRect bannerFrame = _banner.frame;
     if (_banner.bannerLoaded) {
+        NSLog(@"loaded");
         contentFrame.size.height -= bannerSize.size.height;
         bannerFrame.origin.y = contentFrame.size.height;
     } else {
-        bannerFrame.origin.y = contentFrame.size.height;
+        NSLog(@"did not load");
+        bannerFrame.origin.y = contentFrame.size.height + bannerSize.size.height;
     }
     
     [UIView animateWithDuration:0.25 animations:^{
