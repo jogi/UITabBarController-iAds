@@ -185,6 +185,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Vashishtha Jogi";
 			};
 			buildConfigurationList = 8F6E4F3214B19B9300AA7CB1 /* Build configuration list for PBXProject "TabbediAd" */;
 			compatibilityVersion = "Xcode 3.2";

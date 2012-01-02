@@ -33,16 +33,21 @@
     
     //Get content view
     UIView *_contentView = [[[self view] subviews] objectAtIndex:0];
-    
+
+    CGRect bounds = [[UIScreen mainScreen] bounds];
     CGRect contentFrame = [_contentView bounds];
     CGRect bannerFrame = _banner.frame;
+    
     if (_banner.bannerLoaded) {
-        NSLog(@"loaded");
-        contentFrame.size.height -= bannerSize.size.height;
-        bannerFrame.origin.y = contentFrame.size.height;
+        if (bannerFrame.origin.y == bounds.size.height) {
+            contentFrame.size.height = bounds.size.height - [[self tabBar] bounds].size.height - bannerSize.size.height;
+            bannerFrame.origin.y = contentFrame.size.height;
+        }
     } else {
-        NSLog(@"did not load");
-        bannerFrame.origin.y = contentFrame.size.height + bannerSize.size.height;
+        if (bannerFrame.origin.y < bounds.size.height) {
+            contentFrame.size.height = bounds.size.height - [[self tabBar] bounds].size.height;
+            bannerFrame.origin.y = bounds.size.height;
+        }
     }
     
     [UIView animateWithDuration:0.25 animations:^{

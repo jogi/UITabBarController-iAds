@@ -15,6 +15,8 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
+        self.title = NSLocalizedString(@"Table", @"Table");
+        self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }
     return self;
 }
@@ -147,7 +149,7 @@
 {
     // Navigation logic may go here. Create and push another view controller.
     
-     TableViewController *detailViewController = [[TableViewController alloc] initWithNibName:@"TableViewController" bundle:nil];
+     TableViewController *detailViewController = [[TableViewController alloc] initWithStyle:UITableViewStylePlain];
      // ...
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
