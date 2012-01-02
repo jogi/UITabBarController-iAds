@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F6E4F3D14B19B9300AA7CB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6E4F3C14B19B9300AA7CB1 /* UIKit.framework */; };
+		8F6E4F3F14B19B9300AA7CB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6E4F3E14B19B9300AA7CB1 /* Foundation.framework */; };
+		8F6E4F4114B19B9300AA7CB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6E4F4014B19B9300AA7CB1 /* CoreGraphics.framework */; };
+		8F6E4F4714B19B9300AA7CB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F6E4F4514B19B9300AA7CB1 /* InfoPlist.strings */; };
+		8F6E4F4914B19B9300AA7CB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E4F4814B19B9300AA7CB1 /* main.m */; };
+		8F6E4F4D14B19B9300AA7CB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E4F4C14B19B9300AA7CB1 /* AppDelegate.m */; };
+		8F6E4F5014B19B9300AA7CB1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E4F4F14B19B9300AA7CB1 /* FirstViewController.m */; };
+		8F6E4F5214B19B9300AA7CB1 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F6E4F5114B19B9300AA7CB1 /* first.png */; };
+		8F6E4F5414B19B9300AA7CB1 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F6E4F5314B19B9300AA7CB1 /* first@2x.png */; };
+		8F6E4F5714B19B9300AA7CB1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E4F5614B19B9300AA7CB1 /* SecondViewController.m */; };
+		8F6E4F5914B19B9300AA7CB1 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F6E4F5814B19B9300AA7CB1 /* second.png */; };
+		8F6E4F5B14B19B9300AA7CB1 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F6E4F5A14B19B9300AA7CB1 /* second@2x.png */; };
+		8F6E4F5E14B19B9300AA7CB1 /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6E4F5C14B19B9300AA7CB1 /* FirstViewController_iPhone.xib */; };
+		8F6E4F6114B19B9300AA7CB1 /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6E4F5F14B19B9300AA7CB1 /* FirstViewController_iPad.xib */; };
+		8F6E4F6414B19B9300AA7CB1 /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6E4F6214B19B9300AA7CB1 /* SecondViewController_iPhone.xib */; };
+		8F6E4F6714B19B9300AA7CB1 /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6E4F6514B19B9300AA7CB1 /* SecondViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F6E4F3814B19B9300AA7CB1 /* TabbediAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbediAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6E4F3C14B19B9300AA7CB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F6E4F3E14B19B9300AA7CB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F6E4F4014B19B9300AA7CB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F6E4F4414B19B9300AA7CB1 /* TabbediAd-Info.plist */ = {isa = PBXFileReference; path = "TabbediAd-Info.plist"; sourceTree = "<group>"; };
+		8F6E4F4614B19B9300AA7CB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F6E4F4814B19B9300AA7CB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F6E4F4A14B19B9300AA7CB1 /* TabbediAd-Prefix.pch */ = {isa = PBXFileReference; path = "TabbediAd-Prefix.pch"; sourceTree = "<group>"; };
+		8F6E4F4B14B19B9300AA7CB1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F6E4F4C14B19B9300AA7CB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F6E4F4E14B19B9300AA7CB1 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		8F6E4F4F14B19B9300AA7CB1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8F6E4F5114B19B9300AA7CB1 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8F6E4F5314B19B9300AA7CB1 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8F6E4F5514B19B9300AA7CB1 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		8F6E4F5614B19B9300AA7CB1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8F6E4F5814B19B9300AA7CB1 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8F6E4F5A14B19B9300AA7CB1 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		8F6E4F5D14B19B9300AA7CB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		8F6E4F6014B19B9300AA7CB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
+		8F6E4F6314B19B9300AA7CB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		8F6E4F6614B19B9300AA7CB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F6E4F3514B19B9300AA7CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6E4F3D14B19B9300AA7CB1 /* UIKit.framework in Frameworks */,
+				8F6E4F3F14B19B9300AA7CB1 /* Foundation.framework in Frameworks */,
+				8F6E4F4114B19B9300AA7CB1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F6E4F2D14B19B9300AA7CB1 = {
+			isa = PBXGroup;
+			children = (
+				8F6E4F4214B19B9300AA7CB1 /* TabbediAd */,
+				8F6E4F3B14B19B9300AA7CB1 /* Frameworks */,
+				8F6E4F3914B19B9300AA7CB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F6E4F3914B19B9300AA7CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F6E4F3814B19B9300AA7CB1 /* TabbediAd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F6E4F3B14B19B9300AA7CB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F6E4F3C14B19B9300AA7CB1 /* UIKit.framework */,
+				8F6E4F3E14B19B9300AA7CB1 /* Foundation.framework */,
+				8F6E4F4014B19B9300AA7CB1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F6E4F4214B19B9300AA7CB1 /* TabbediAd */ = {
+			isa = PBXGroup;
+			children = (
+				8F6E4F4B14B19B9300AA7CB1 /* AppDelegate.h */,
+				8F6E4F4C14B19B9300AA7CB1 /* AppDelegate.m */,
+				8F6E4F4E14B19B9300AA7CB1 /* FirstViewController.h */,
+				8F6E4F4F14B19B9300AA7CB1 /* FirstViewController.m */,
+				8F6E4F5114B19B9300AA7CB1 /* first.png */,
+				8F6E4F5314B19B9300AA7CB1 /* first@2x.png */,
+				8F6E4F5514B19B9300AA7CB1 /* SecondViewController.h */,
+				8F6E4F5614B19B9300AA7CB1 /* SecondViewController.m */,
+				8F6E4F5814B19B9300AA7CB1 /* second.png */,
+				8F6E4F5A14B19B9300AA7CB1 /* second@2x.png */,
+				8F6E4F5C14B19B9300AA7CB1 /* FirstViewController_iPhone.xib */,
+				8F6E4F5F14B19B9300AA7CB1 /* FirstViewController_iPad.xib */,
+				8F6E4F6214B19B9300AA7CB1 /* SecondViewController_iPhone.xib */,
+				8F6E4F6514B19B9300AA7CB1 /* SecondViewController_iPad.xib */,
+				8F6E4F4314B19B9300AA7CB1 /* Supporting Files */,
+			);
+			path = TabbediAd;
+			sourceTree = "<group>";
+		};
+		8F6E4F4314B19B9300AA7CB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F6E4F4414B19B9300AA7CB1 /* TabbediAd-Info.plist */,
+				8F6E4F4514B19B9300AA7CB1 /* InfoPlist.strings */,
+				8F6E4F4814B19B9300AA7CB1 /* main.m */,
+				8F6E4F4A14B19B9300AA7CB1 /* TabbediAd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F6E4F3714B19B9300AA7CB1 /* TabbediAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6E4F6A14B19B9300AA7CB1 /* Build configuration list for PBXNativeTarget "TabbediAd" */;
+			buildPhases = (
+				8F6E4F3414B19B9300AA7CB1 /* Sources */,
+				8F6E4F3514B19B9300AA7CB1 /* Frameworks */,
+				8F6E4F3614B19B9300AA7CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabbediAd;
+			productName = TabbediAd;
+			productReference = 8F6E4F3814B19B9300AA7CB1 /* TabbediAd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F6E4F2F14B19B9300AA7CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8F6E4F3214B19B9300AA7CB1 /* Build configuration list for PBXProject "TabbediAd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F6E4F2D14B19B9300AA7CB1;
+			productRefGroup = 8F6E4F3914B19B9300AA7CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F6E4F3714B19B9300AA7CB1 /* TabbediAd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F6E4F3614B19B9300AA7CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6E4F4714B19B9300AA7CB1 /* InfoPlist.strings in Resources */,
+				8F6E4F5214B19B9300AA7CB1 /* first.png in Resources */,
+				8F6E4F5414B19B9300AA7CB1 /* first@2x.png in Resources */,
+				8F6E4F5914B19B9300AA7CB1 /* second.png in Resources */,
+				8F6E4F5B14B19B9300AA7CB1 /* second@2x.png in Resources */,
+				8F6E4F5E14B19B9300AA7CB1 /* FirstViewController_iPhone.xib in Resources */,
+				8F6E4F6114B19B9300AA7CB1 /* FirstViewController_iPad.xib in Resources */,
+				8F6E4F6414B19B9300AA7CB1 /* SecondViewController_iPhone.xib in Resources */,
+				8F6E4F6714B19B9300AA7CB1 /* SecondViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F6E4F3414B19B9300AA7CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6E4F4914B19B9300AA7CB1 /* main.m in Sources */,
+				8F6E4F4D14B19B9300AA7CB1 /* AppDelegate.m in Sources */,
+				8F6E4F5014B19B9300AA7CB1 /* FirstViewController.m in Sources */,
+				8F6E4F5714B19B9300AA7CB1 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F6E4F4514B19B9300AA7CB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6E4F4614B19B9300AA7CB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F6E4F5C14B19B9300AA7CB1 /* FirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6E4F5D14B19B9300AA7CB1 /* en */,
+			);
+			name = FirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8F6E4F5F14B19B9300AA7CB1 /* FirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6E4F6014B19B9300AA7CB1 /* en */,
+			);
+			name = FirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		8F6E4F6214B19B9300AA7CB1 /* SecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6E4F6314B19B9300AA7CB1 /* en */,
+			);
+			name = SecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8F6E4F6514B19B9300AA7CB1 /* SecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6E4F6614B19B9300AA7CB1 /* en */,
+			);
+			name = SecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F6E4F6814B19B9300AA7CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F6E4F6914B19B9300AA7CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F6E4F6B14B19B9300AA7CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabbediAd/TabbediAd-Prefix.pch";
+				INFOPLIST_FILE = "TabbediAd/TabbediAd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F6E4F6C14B19B9300AA7CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabbediAd/TabbediAd-Prefix.pch";
+				INFOPLIST_FILE = "TabbediAd/TabbediAd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F6E4F3214B19B9300AA7CB1 /* Build configuration list for PBXProject "TabbediAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6E4F6814B19B9300AA7CB1 /* Debug */,
+				8F6E4F6914B19B9300AA7CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6E4F6A14B19B9300AA7CB1 /* Build configuration list for PBXNativeTarget "TabbediAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6E4F6B14B19B9300AA7CB1 /* Debug */,
+				8F6E4F6C14B19B9300AA7CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F6E4F2F14B19B9300AA7CB1 /* Project object */;
+}
