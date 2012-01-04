@@ -22,32 +22,32 @@
 
 - (void) layoutBanner
 {
+    float height = 0.0;
     ADBannerView *_banner = (ADBannerView *)[[self view] viewWithTag:12];
+    CGRect bounds = [[UIScreen mainScreen] bounds];
     
-    _banner.currentContentSizeIdentifier = UIInterfaceOrientationIsPortrait(self.interfaceOrientation) ? 
-                                            ADBannerContentSizeIdentifierPortrait : ADBannerContentSizeIdentifierLandscape;
+    if (UIInterfaceOrientationIsPortrait(self.interfaceOrientation)) {
+        _banner.currentContentSizeIdentifier = ADBannerContentSizeIdentifierPortrait;
+        height = bounds.size.height;
+    } else {
+        _banner.currentContentSizeIdentifier = ADBannerContentSizeIdentifierLandscape;
+        height = bounds.size.width;
+    }
     
-    
-    CGRect bannerSize;
-    bannerSize.size = [ADBannerView sizeFromBannerContentSizeIdentifier:_banner.currentContentSizeIdentifier];
+    CGSize bannerSize = [ADBannerView sizeFromBannerContentSizeIdentifier:_banner.currentContentSizeIdentifier];
     
     //Get content view
     UIView *_contentView = [[[self view] subviews] objectAtIndex:0];
-
-    CGRect bounds = [[UIScreen mainScreen] bounds];
+    
     CGRect contentFrame = [_contentView bounds];
-    CGRect bannerFrame = _banner.frame;
+    CGRect bannerFrame = [_banner bounds];
     
     if (_banner.bannerLoaded) {
-        if (bannerFrame.origin.y == bounds.size.height) {
-            contentFrame.size.height = bounds.size.height - [[self tabBar] bounds].size.height - bannerSize.size.height;
-            bannerFrame.origin.y = contentFrame.size.height;
-        }
+        contentFrame.size.height = height - [[self tabBar] bounds].size.height - bannerSize.height;
+        bannerFrame.origin.y = contentFrame.size.height;
     } else {
-        if (bannerFrame.origin.y < bounds.size.height) {
-            contentFrame.size.height = bounds.size.height - [[self tabBar] bounds].size.height;
-            bannerFrame.origin.y = bounds.size.height;
-        }
+        contentFrame.size.height = height - [[self tabBar] bounds].size.height;
+        bannerFrame.origin.y = bounds.size.height;
     }
     
     [UIView animateWithDuration:0.25 animations:^{
@@ -69,8 +69,13 @@
     [self layoutBanner];
 }
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    return YES;
+}
+
+
 - (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
-    NSLog(@"Rotated");
+    NSLog(@"Did rotate");
 	[self layoutBanner];
 }
 
