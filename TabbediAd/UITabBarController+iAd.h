@@ -11,7 +11,7 @@
 
 @interface UITabBarController (iAd) <ADBannerViewDelegate>
 
-- (void) showiAds;
-- (void) layoutBanner;
+- (void)showiAds;
+- (void)layoutBanner;
 
 @end
