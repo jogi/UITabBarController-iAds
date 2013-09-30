@@ -1,5 +1,7 @@
-UITabBarController+iAds - Simple and easy to use UITabBarController category which adds support for displaying iAds
+UITabBarController+iAds
 ================
+*Simple and easy to use UITabBarController category which adds support for displaying iAds*
+
 There are numerous shared iAds implementations out there including one from [Apple](http://developer.apple.com/library/ios/#samplecode/iAdSuite/Introduction/Intro.html). All of them require a lot of work on your side to get it work. Moreover none of the existing implementations support auto resizing of views upon display of iAd without doing significant amount of changes to the existing code. To over come this I created this category.
 
 Support
