@@ -10,7 +10,8 @@ iOS 4.0+ with iOS 5 required for compiling as I am using ARC
 
 Usage
 ================
-Just import ```UITabBarController+iAd.h``` in the AppDelegate and then make a call to ```[self.tabBarController showiAds]```
+1. Import ```UITabBarController+iAd.h``` in the AppDelegate and then make a call to ```[self.tabBarController showiAds]```
+2. Implement `didSelectViewController` tab bar controller delegate method in AppDelegate and make a call to `layoutBanner`
 
 License
 ================
