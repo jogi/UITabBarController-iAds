@@ -6,7 +6,7 @@ There are numerous shared iAds implementations out there including one from [App
 
 Support
 ================
-iOS 4.0+ with iOS 5 required for compiling as I am using ARC
+iOS 5.0+
 
 Usage
 ================
